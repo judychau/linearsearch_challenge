@@ -1,0 +1,13 @@
+Test Plan
+
+Objective:
+This unit test will test for the correct output in terms of the function parameters. Since it is assumed that all items in the array are sorted, there are no duplicates items in the array, non-null items, and the number of items in the array is greater than 0, the test will not check for those.
+This test will test: 
+	1. Sort type of the array: ascending or descending
+	2. Key values that are in the array (exactly matching), in the range of the array (non-exact match), and not in the array (not exactly matching and out of range)
+	3. Match types: "LessThan", "LessThanEquals", "Equals", "GreaterThan", "GreaterThanEquals"
+	4. Errors: In order to successfully execute the function, the function parameters must be valid. The test will also check for for the correct error statements, if function parameters were entered invalidly. This is important to test because the error statements will pin the error to a specific area.
+
+
+Resources:
+-Python 2.7.10
